@@ -1,0 +1,34 @@
+-Add message to reset the tank settings
+-Make the message disappear after a time. ( including the remove message button in 10 seconds).
+  If I click the remove message button it should also disappear along with the message
+
+
+-I also should make the buttons state what is the increase of speed that they could have as well as things as the speed limit specified for each tank.
+
+
+Another feature that I could add is to have a fuel tank that will be specific for each tank and each time the tank performs a function the fuel could be reduced.
+
+
+
+Other:
+-Minerals that can be mined depending on the type of drill.
+
+shop: Sell minerals and:
+    -Global fuel reserve   (Decreases after every tank uses fuel).
+    -buy fuel tanks
+    -upgrade the tanks (increase their tier and buy features) very more complex I guess
+
+-Inventory
+
+-Tank factory (create your own tank)
+
+
+
+
+
+
+
+
+
+
+

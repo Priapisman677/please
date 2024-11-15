@@ -1,0 +1,22 @@
+.status-container {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #10ff30;
+  border-radius: 5px;
+  height: 7%;
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+.status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #ff0000;
+  border-radius: 5px;
+  height: 100%;
+  background-color: #07002b;
+}

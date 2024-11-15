@@ -1,0 +1,28 @@
+.functions-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: solid 1px #10ff30;
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+}
+
+.button-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border: solid 1px #ff0000;
+  border-radius: 5px;
+  height: 100%;
+}
+
+.speedUp-button,
+.slow-down-button,
+.open-storage-button,
+.close-storage-button,
+.refill-fuel-button,
+.reserve-fuel-button,
+.fly-button {
+  width: 100%;
+}

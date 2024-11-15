@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MotherLoad</title>
+    <link rel="stylesheet" href="./css-files/1-main.css" />
+   
+  </head>
+  <body>
+    <div class="img-container">
+      <img class="image" src="./images/3_gameplay.jpg" />
+    </div>
+    <div class="welcome-message-container">
+      <div class="welcome-message">Welcome to MotherLoad</div>
+    </div>
+    <!-- *Start of JavaScript (I do query select on the element below (tank-menu)) -------------------------- -->
+    <div class="tank-menu">
+      <!-- *Start of insertion ---------------------------------------------------------- -->
+      <!-- <div class="functions-container">
+        <div class="button-container">
+          <button class="speedUp-button" data-tank-id="${tank.id as string}">
+            Speed Up
+          </button>
+        </div>
+        <div class="button-container">
+          <button class="slow-down-button" data-tank-id="${tank.id as string}">
+            Slow down
+          </button>
+        </div>
+        <div class="button-container">
+          <button
+            class="open-storage-button"
+            data-tank-id="${tank.id as string}"
+          >
+            Open storage
+          </button>
+        </div>
+        <div class="button-container">
+          <button
+            class="close-storage-button"
+            data-tank-id="${tank.id as string}"
+          >
+            Close storage
+          </button>
+        </div>
+        <div class="button-container">
+          <button class="refill-fuel-button" data-tank-id="${tank.id}">
+            Refill fuel
+          </button>
+        </div>
+      </div>
+
+      <div class="status-container">
+        <div class="moving-status-container">
+          <p class="moving-status">
+            Moving <br />status: ${ tank.movingStatus as string }
+          </p>
+        </div>
+        <div class="storage-status-container">
+          <p>
+            Storage <br />
+            status: ${ (tank.isStorageOpen as boolean) === true ? "Open" :
+            "Closed" }
+          </p>
+        </div>
+        <div class="speed">
+          <p>Speed: ${tank.speed as number}</p>
+        </div>
+
+        <div class="fuel-status-container">
+          Current fuel: <br />
+          ${ tank.fuelCapacity }
+        </div>
+      </div>
+
+      <div class="items-container">
+        <div class="image-container">
+          <img
+            class="item-image"
+            src="../../images/${
+            tank.drill.name as string
+          }-drill.PNG"
+          />
+        </div>
+        <div class="image-container">
+          <img
+            class="item-image"
+            src="../../images/${
+            tank.engine.name as string
+          }-engine.PNG"
+          />
+        </div>
+        <div class="image-container">
+          <img
+            class="item-image"
+            src="../../images/${
+            tank.fuelType.name as string
+          }-fuel.PNG"
+          />
+        </div>
+        <div class="image-container">
+          <img
+            class="item-image"
+            src="../../images/${
+            tank.fuelType.name as string
+          }-fuel.PNG"
+          />
+        </div>
+        ${tank.returnImageHTML()}
+      </div>
+
+      <div class="message-container">
+        <div class="message js-message${tank.id as string}">
+          ${ tank.tankMessage as string }
+        </div>
+        <div class="remove-message-button-container">
+          <button
+            class="remove-message-button"
+            data-tank-id="${tank.id as string}"
+          >
+            Remove message
+          </button>
+        </div>
+      </div> -->
+      <!-- *End of JavaScript: Closing div for tank menu is below----------- -->
+    </div>
+
+    <!-- *Message will go here -->
+
+    <script type="module" src="./javascript/dist/mainHTML.js"></script>
+  </body>
+</html>

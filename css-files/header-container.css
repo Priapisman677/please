@@ -1,0 +1,43 @@
+body {
+  background-color: #220000;
+  color: #ffffff;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1000px;
+}
+.img-container {
+  background-color: #07002b;
+  border: solid;
+  border-color: #ff0000;
+  height: 360px;
+  border-width: 5px;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  /* Cover will stretch to cover the whole div: */
+  object-fit: contain;
+  /* contain Will not stretch */
+  /* object-fit: contain; */
+  z-index: 0;
+}
+
+.welcome-message-container {
+  padding: 12px;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: rgb(20, 20, 20);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  border-radius: 5px;
+  border-color: #5b5b5b;
+}
+.welcome-message {
+  font-size: inherit;
+  font-size: 30px;
+}
